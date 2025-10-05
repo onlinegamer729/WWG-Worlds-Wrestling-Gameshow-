@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 100001}
+  - component: {fileID: 100002}
+  m_Layer: 0
+  m_Name: MainMenu
+  m_TagString: Untagged
+  m_Active: 1
+--- !u!21 &100001
+Camera:
+  m_ObjectHideFlags: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0.192156866, g: 0.3019608, b: 0.4745098, a: 0}
+  m_Output: -1
+--- !u!114 &100002
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_Script: {fileID: 123456789, guid: 0000000000000000e000000000000000, type: 3}

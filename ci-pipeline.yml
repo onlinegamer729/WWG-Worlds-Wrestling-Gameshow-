@@ -1,0 +1,9 @@
+build:
+  name: WWG Auto Build
+  steps:
+    - name: Setup Unity (placeholder)
+      run: echo "Install Unity version 2022.3.10f1"
+    - name: Build Windows
+      run: echo "Build Windows x64 - use Unity CLI or CI provider"
+    - name: Build Android
+      run: echo "Build Android (APK/AAB) - use Unity CLI or CI provider"
